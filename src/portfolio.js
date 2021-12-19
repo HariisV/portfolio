@@ -21,28 +21,12 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
     name: 'Eka Danta LC',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'Tryout online website, used for students who study there, every month more than 150 visitors access it at the same time',
+    stack: ['Laravel', 'Bootstrap', 'Jquery', 'Ajax'],
     sourceCode: 'https://github.com',
-    url: '/image/ekadanta.png',
+    url: 'https://raw.githubusercontent.com/HariisV/portfolio/main/public/image/asd.png?token=ALLV2MNF4O5LPZYANWAH4UDBX32U4',
     livePreview: 'https://github.com',
   },
 ]
