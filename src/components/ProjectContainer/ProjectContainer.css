@@ -1,5 +1,7 @@
 .project {
-  padding: 2em;
+  /* padding: 2em; */
+  padding-top: 2em;
+  padding-bottom: 2em;
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
@@ -30,4 +32,8 @@
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+.project-detail {
+  padding-right: 2em;
+  padding-left: 2em;
 }

@@ -6,14 +6,14 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Haris Wahyudi',
+  role: 'Fullstack Javascript Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Personal who likes to work hard, flexible and generous towards work. Now focus on learning the latest technologies like ReactJs, NodeJs, ExpressJs, and React Native.Having a Hobby of Solving Problems, makes me not easily give up on problems. And also has an enthusiastic nature with all things programming.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/harisw/',
+    github: 'https://github.com/hariisV',
   },
 }
 
@@ -37,11 +37,12 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: 'Eka Danta LC',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
+    url: '/image/ekadanta.png',
     livePreview: 'https://github.com',
   },
 ]
@@ -51,21 +52,22 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
+  'PHP',
   'JavaScript',
   'TypeScript',
   'React',
+  'ReactNative',
+  'Next',
+  'Express',
   'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Laravel',
+  'Code Igniter',
+  'MySql',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'hariswh9@mail.com',
 }
 
 export { header, about, projects, skills, contact }
