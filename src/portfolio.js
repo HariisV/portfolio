@@ -5,7 +5,7 @@ const header = {
 
 const about = {
   name: 'Haris Wahyudi',
-  role: 'Fullstack Javascript Developer',
+  role: 'Fullstack Website Developer',
   description:
     'Personal who likes to work hard, flexible and generous towards work. Now focus on learning the latest technologies like ReactJs, NodeJs, ExpressJs, and React Native.Having a Hobby of Solving Problems, makes me not easily give up on problems. And also has an enthusiastic nature with all things programming.',
   descriptionLong: '',
@@ -20,14 +20,16 @@ const projects = [
   {
     name: 'Semina',
     description:
-      'Storegg is web application for gamers to add credit to game balance. using NextJs and Express Js as the development platform.',
+      'Semina is a web-based application built using the MERN stack. Semina make it easier for the public to book a event.',
     descriptionLong: `
-    <p>Storegg is an application that makes it easy for gamers to add credit to their game balance through top-up. This application is developed using NextJs and Express Js as the development platform. With Storegg, gamers can easily add credit to their game balance with just a few clicks, without the hassle of finding complicated top-up methods or buying game vouchers at stores. In addition, Storegg also provides various safe and easy payment methods for gamers, so they can comfortably add credit to their game balance anytime and anywhere.    </p>
+    <p>Semina is a web-based application built using the MERN stack (MongoDB, Express, React, and Node.js). This application is designed to make it easy for the public to book seminar events online.</p>
+    <p style="margin-top:5px;">Using the Semina application, the public can easily search for and find information about seminars that are being held or will be held. In addition, they can also easily book seminar tickets through this application</p>
     <ul>
-      <li>Register/Login</li>
-      <li>Admin Page.</li>
-      <li>Topup Page.</li>
-      <li>Using Midtrans For Payment Gateway.</li>
+      <li>Seminar Search: Users can search for information about current or upcoming seminars based on desired keywords.</li>
+      <li>Seminar Details: Users can view complete information about the selected seminar, including the date, time, location, and description.</li>
+      <li>Ticket Booking: Users can book seminar tickets online by filling out the available form.</li>
+      <li>Payment: Users can make seminar ticket payments through the application using available payment methods, such as credit card or bank transfer.</li>
+      <li>E-ticket: After successful ticket booking and payment, the user will receive an e-ticket via email or the application that can be used to attend the seminar.</li>
     </ul>
     `,
     stack: ['MongoDB', 'Express JS', 'React JS', 'Node JS'],
@@ -89,9 +91,7 @@ const projects = [
     </ul>
     `,
     stack: ['React', 'Redux', 'Bootstrap', 'Express', 'Redis', 'Axios'],
-    image: [
-      'https://raw.githubusercontent.com/mesindo07/Portfolio-Image/main/tickez.png',
-    ],
+    image: ['/portfolio/tickez/1.png'],
     sourceCode: 'https://github.com/HariisV/Ticketing-React',
     livePreview: 'https://tickez.dokumensaya.com/',
     date: '2022 - DES',
@@ -135,9 +135,8 @@ const projects = [
       <li>and changing profile and password user.</li>
     </ul></div>`,
     stack: ['Next', 'Redux', 'Bootstrap', 'Redis', 'Express', 'Midtrans'],
-    image: [
-      'https://raw.githubusercontent.com/mesindo07/Portfolio-Image/main/wallet.png',
-    ],
+    image: ['/portfolio/xwallet/1.png'],
+
     date: '2021 - SEP',
     sourceCode: 'https://github.com/HariisV/XWallet',
     livePreview: 'https://x-wallet.vercel.app/',
@@ -149,9 +148,8 @@ const projects = [
     descriptionLong: '',
     stack: ['React', 'Redux', 'Redis', 'Bootstrap', 'Express'],
     sourceCode: 'https://github.com',
-    image: [
-      'https://raw.githubusercontent.com/mesindo07/Portfolio-Image/main/hire.png',
-    ],
+    image: ['/portfolio/hire/1.png'],
+
     date: '2021 - DES',
     livePreview: 'https://github.com',
   },
@@ -162,9 +160,7 @@ const projects = [
     descriptionLong: '',
     stack: ['React', 'Redux', 'Redis', 'Bootstrap', 'Express', 'Midtrans'],
     sourceCode: 'https://github.com',
-    image: [
-      'https://raw.githubusercontent.com/mesindo07/Portfolio-Image/main/coffe.png',
-    ],
+    image: ['/portfolio/coffe/1.png'],
     date: '2021 - OKT',
     livePreview: 'https://github.com',
   },
@@ -186,9 +182,7 @@ const projects = [
     stack: ['Laravel', 'Bootstrap', 'Jquery', 'MySql'],
     date: '2021 - MEI',
     livePreview: 'https://dmadropship.com/',
-    image: [
-      'https://raw.githubusercontent.com/mesindo07/Portfolio-Image/main/dma.png',
-    ],
+    image: ['/portfolio/dma/1.png'],
   },
   {
     name: 'Eka Danta LC',
@@ -198,9 +192,7 @@ const projects = [
     stack: ['Laravel', 'Bootstrap', 'Jquery', 'Ajax'],
     date: '2020 - AUG',
     livePreview: 'https://ekadantalc.com/',
-    image: [
-      'https://raw.githubusercontent.com/mesindo07/Portfolio-Image/main/ekadanta.png',
-    ],
+    image: ['/portfolio/ekadanta/1.png'],
   },
   {
     name: 'PPDB SMKN 5',
@@ -210,9 +202,7 @@ const projects = [
     stack: ['Laravel', 'Bootstrap', 'MySql'],
     sourceCode: 'https://github.com/HariisV',
     date: '2021 - FEB',
-    image: [
-      'https://raw.githubusercontent.com/mesindo07/Portfolio-Image/main/ppdb.png',
-    ],
+    image: ['/portfolio/ppdb/1.png'],
   },
   {
     name: 'Meduza Shop',
@@ -221,9 +211,7 @@ const projects = [
     descriptionLong: '',
     stack: ['Laravel', 'Bootstrap', 'MySql'],
     sourceCode: 'https://github.com/HariisV/Meduza-Shop',
-    image: [
-      'https://raw.githubusercontent.com/mesindo07/Portfolio-Image/main/meduza.png',
-    ],
+    image: ['/portfolio/meduza/1.png'],
     date: '2020 - MEI',
   },
 ]
