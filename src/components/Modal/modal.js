@@ -75,7 +75,7 @@ export default function ModalProject({
             emulateTouch
           >
             {project.image.map((img) => (
-              <div style={{ display: isLoading ? 'none' : 'block' }}>
+              <div style={{ display: isLoading ? 'none' : 'block' }} key={img}>
                 <img
                   src={img}
                   onLoad={() => setIsLoading(false)}

@@ -23,7 +23,15 @@ const projects = [
     name: 'Tickez',
     description:
       'Tickez is an application that is used to book a Movies. built using React, here you can select all movies & select available seats',
-    descriptionLong: '',
+    descriptionLong: `
+    <p>Ticketz is also available as a web application built using React JS, a JavaScript library for building user interfaces. One advantage of using React JS is that it allows for the creation of reusable components, which can improve the efficiency and maintainability of the code. In addition, React JS uses a virtual DOM (Document Object Model) to optimize updates and minimize the impact on performance when the user interface changes.</p>
+    <ul>
+      <li>The user will receive an online ticket which contains the user's chosen seat and a barcode that can be scanned by the staff.</li>
+      <li>The security and convenience are guaranteed.</li>
+      <li>In addition to watching currently showing films, the user can also view films that are coming soon.</li>
+      <li>The user can also change their profile and password.</li>
+    </ul>
+    `,
     stack: ['React', 'Redux', 'Bootstrap', 'Express', 'Redis', 'Axios'],
     image: [
       'https://raw.githubusercontent.com/mesindo07/Portfolio-Image/main/tickez.png',
@@ -36,7 +44,15 @@ const projects = [
     name: 'Tickez Mobile',
     description:
       'Tickez Mobile is Mobile version of Tickez, built using React Native, here you can also select all movies & select available seats',
-    descriptionLong: ``,
+    descriptionLong: `
+    <p>Ticketz is an application built using React Native, which makes it a cross-platform application that can be used on both Android and iOS devices. It allows users to buy and reserve movie tickets</p>
+    <ul>
+      <li>The user will receive an online ticket which contains the user's chosen seat and a barcode that can be scanned by the staff.</li>
+      <li>The security and convenience are guaranteed.</li>
+      <li>In addition to watching currently showing films, the user can also view films that are coming soon.</li>
+      <li>The user can also change their profile and password.</li>
+    </ul>
+    `,
     stack: ['React Native', 'Redux'],
 
     image: [
@@ -45,7 +61,6 @@ const projects = [
       '/portfolio/tickez-mobile/3.jpg',
       '/portfolio/tickez-mobile/4.jpg',
     ],
-
     sourceCode: 'https://github.com/HariisV/Ticketing-Mobile',
     date: '2021 - AUG',
   },
@@ -54,7 +69,14 @@ const projects = [
     name: 'xWallet',
     description:
       'xWallet is a digital wallet application that allows us to transfer money for free without any fees. also automatic topup',
-    descriptionLong: '',
+    descriptionLong: `<div><p>FazzPay is a digital wallet designed to simplify users' financial needs and save time in banking needs. The features of this project are:</p>
+    <ul>
+      <li>topping up money with various payment methods</li>
+      <li>using Midtrans as a payment gateway for topping up in this project</li>
+      <li>transferring money to other users</li>
+      <li>viewing income and expenditure in the FazzPay app dashboard</li>
+      <li>and changing profile and password user.</li>
+    </ul></div>`,
     stack: ['Next', 'Redux', 'Bootstrap', 'Redis', 'Express', 'Midtrans'],
     image: [
       'https://raw.githubusercontent.com/mesindo07/Portfolio-Image/main/wallet.png',

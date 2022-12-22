@@ -35,7 +35,7 @@
   overflow: hidden !important; 
 }
 .container_modal{
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   text-align: justify;
 }
 .thumb.selected{
@@ -51,15 +51,7 @@
 }
 .modal_title{
   color: var(--clr-fg-alt);
-  font-size: 44px;
-}
-.modal_desc{
-  background-color: var(--clr-bg);
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 40px;
-  color: var(--clr-fg-alt);
-  margin: 40px 0px 40px 0px;
+  font-size: 34px;
 }
 .modal_desc_item-icon{
 
@@ -67,18 +59,9 @@
   justify-content: center;
   gap: 10px;
 }
-.modal_desc_item{
-  padding: 15px 10px;
-  /* max-width: 200px; */
-  width: 33%;
-  text-align: center;
-}
 .thumb.selected:hover{
   cursor: pointer;
   /* border: 3px solid white !important; */
-}
-.modal_desc_item:not(:last-child){
-  border-right: 1px solid var(--clr-fg);
 }
 .modal_desc_link .MuiSvgIcon-root{
   color: var(--clr-fg);
@@ -99,7 +82,8 @@
 .modal_project_desc{
   color: var(--clr-fg-alt);
   font-size: 14px;
-  margin-bottom: 40px;
+  padding:0 20px;
+  margin-bottom: 20px;
 }
 .carousel .control-dots{
   background: unset !important;
@@ -128,7 +112,7 @@
   justify-content: center;
 }
 .modal_close{
-  margin: 50px 0 !important;
+  margin: 20px 0 60px 0 !important;
   /* background-color: red; */
   /* padding: 10px 20px; */
 }
@@ -155,7 +139,54 @@
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
 }
+.modal_desc{
+  background-color: var(--clr-bg);
+  justify-content: space-between;
+  padding: 20px 40px;
+  color: var(--clr-fg-alt);
+  margin: 20px 0px 20px 0px;
+}
 
+.ReactModal__Content{
+  width: 84% !important;
+}
+.modal_title{
+  text-align: center;
+}
+.modal_desc_item{
+  border-bottom: 1px solid var(--clr-fg);
+}
+
+@media screen and (min-width: 1200px) {
+  .ReactModal__Content{
+    width: 60% !important;
+  }
+  .modal_desc{
+    display: flex;
+  }
+  .modal_desc_item{
+    border-bottom: unset;
+  }
+  .modal_desc_item:not(:last-child){
+    border-right: 1px solid var(--clr-fg);
+  }
+  .modal_desc_item{
+    padding: 15px 10px;
+    width: 33%;
+    text-align: center;
+  }  
+
+}
+.modal_desc_item{
+  padding: 15px 10px;
+  text-align: center;
+}  
+
+.modal_project_desc ul{
+  list-style: circle;
+  margin-left: 30px;
+  margin-top: 10px;
+}
 
 .modal_skeleton::before  {
   content: "";
