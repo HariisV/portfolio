@@ -13,7 +13,7 @@ export default function ModalProject({
   project,
 }) {
   const [isLoading, setIsLoading] = useState(true)
-  const [{ themeName, toggleTheme }] = useContext(ThemeContext)
+  const [{ themeName }] = useContext(ThemeContext)
 
   const customStyles = {
     content: {

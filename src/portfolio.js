@@ -1,11 +1,9 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: '/',
   title: 'Haris.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Haris Wahyudi',
   role: 'Fullstack Javascript Developer',
   description:
@@ -19,6 +17,64 @@ const about = {
 }
 
 const projects = [
+  {
+    name: 'Semina',
+    description:
+      'Storegg is web application for gamers to add credit to game balance. using NextJs and Express Js as the development platform.',
+    descriptionLong: `
+    <p>Storegg is an application that makes it easy for gamers to add credit to their game balance through top-up. This application is developed using NextJs and Express Js as the development platform. With Storegg, gamers can easily add credit to their game balance with just a few clicks, without the hassle of finding complicated top-up methods or buying game vouchers at stores. In addition, Storegg also provides various safe and easy payment methods for gamers, so they can comfortably add credit to their game balance anytime and anywhere.    </p>
+    <ul>
+      <li>Register/Login</li>
+      <li>Admin Page.</li>
+      <li>Topup Page.</li>
+      <li>Using Midtrans For Payment Gateway.</li>
+    </ul>
+    `,
+    stack: ['MongoDB', 'Express JS', 'React JS', 'Node JS'],
+    image: ['/portfolio/semina/1.webp'],
+    sourceCode: 'https://github.com/HariisV/Ticketing-React',
+    // livePreview: 'https://tickez.dokumensaya.com/',
+    date: '2022 - DES',
+  },
+  {
+    name: 'StoreGG',
+    description:
+      'Storegg is web application for gamers to add credit to game balance. using NextJs and Express Js as the development platform.',
+    descriptionLong: `
+    <p>Storegg is an application that makes it easy for gamers to add credit to their game balance through top-up. This application is developed using NextJs and Express Js as the development platform. With Storegg, gamers can easily add credit to their game balance with just a few clicks, without the hassle of finding complicated top-up methods or buying game vouchers at stores. In addition, Storegg also provides various safe and easy payment methods for gamers, so they can comfortably add credit to their game balance anytime and anywhere.    </p>
+    <ul>
+      <li>Register/Login</li>
+      <li>Admin Page.</li>
+      <li>Topup Page.</li>
+      <li>Using Midtrans For Payment Gateway.</li>
+    </ul>
+    `,
+    stack: ['React', 'MongoDB', 'Express', 'NodeJS', 'Story Book'],
+    image: ['/portfolio/storegg/1.png'],
+    // sourceCode: 'https://github.com/HariisV/Ticketing-React',
+    // livePreview: 'https://tickez.dokumensaya.com/',
+    date: '2022 - DES',
+  },
+  {
+    name: 'Luxspace PWA',
+    description:
+      'PWA are web applications that utilize modern technologies to provide a user experience similar to native applications.',
+    descriptionLong: `
+    <p>Progressive Web Apps (PWAs) are web applications that utilize modern technologies to provide a user experience similar to native applications on mobile devices. They utilize features such as push notifications and offline mode to provide the same convenience as native apps.</p>
+    <p style="margin-top:5px;">ReactJS is a popular JavaScript library for building user interfaces, and Tailwind CSS is a utility-first CSS framework that can be used to style your PWA. By using these tools together, you can build a PWA that is fast, responsive, and easy to use on a variety of devices.</p>
+    <ul>
+      <li>Workbox</li>
+      <li>Event Service Workbox.</li>
+      <li>Lighthouse.</li>
+      <li>Push Notification.</li>
+    </ul>
+    `,
+    stack: ['React', 'PWA', 'Tailwind'],
+    image: ['/portfolio/luxspace-pwa/1.png'],
+    sourceCode: 'https://github.com/HariisV/Luxspace_PWA',
+    livePreview: 'https://luxspace-pwa.vercel.app/',
+    date: '2022 - DES',
+  },
   {
     name: 'Tickez',
     description:
@@ -57,9 +113,10 @@ const projects = [
 
     image: [
       '/portfolio/tickez-mobile/1.png',
-      '/portfolio/tickez-mobile/2.jpg',
+      '/portfolio/tickez-mobile/2.png',
       '/portfolio/tickez-mobile/3.jpg',
       '/portfolio/tickez-mobile/4.jpg',
+      '/portfolio/tickez-mobile/5.jpg',
     ],
     sourceCode: 'https://github.com/HariisV/Ticketing-Mobile',
     date: '2021 - AUG',
@@ -69,12 +126,12 @@ const projects = [
     name: 'xWallet',
     description:
       'xWallet is a digital wallet application that allows us to transfer money for free without any fees. also automatic topup',
-    descriptionLong: `<div><p>FazzPay is a digital wallet designed to simplify users' financial needs and save time in banking needs. The features of this project are:</p>
+    descriptionLong: `<div><p>xWallet is a digital wallet designed to simplify users' financial needs and save time in banking needs. The features of this project are:</p>
     <ul>
       <li>topping up money with various payment methods</li>
       <li>using Midtrans as a payment gateway for topping up in this project</li>
       <li>transferring money to other users</li>
-      <li>viewing income and expenditure in the FazzPay app dashboard</li>
+      <li>viewing income and expenditure in the xWallet app dashboard</li>
       <li>and changing profile and password user.</li>
     </ul></div>`,
     stack: ['Next', 'Redux', 'Bootstrap', 'Redis', 'Express', 'Midtrans'],
@@ -172,24 +229,20 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'PHP',
-  'JavaScript',
-  'TypeScript',
+  'HTML / CSS',
+  'JavaScript / TypeScript',
   'React',
   'ReactNative',
-  'Bootstrap',
-  'Tailwind Css',
-  'Next',
+  'NextJS',
   'Node',
   'Express',
-  'Laravel',
-  'MySql',
   'MongoDB',
   'Jest Js',
+  'TailwindCSS',
+  'Bootstrap',
+  'PHP',
+  'Laravel',
+  'MySql',
 ]
 
 const contact = {
