@@ -51,6 +51,7 @@ export default function ModalProject({
       <Modal
         isOpen={modalIsOpen}
         cont
+        closeTimeoutMS={500}
         onRequestClose={() => closeModal}
         style={customStyles}
         overlayClassName='Overlay'
