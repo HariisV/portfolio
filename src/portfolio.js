@@ -33,7 +33,7 @@ const projects = [
     </ul>
     `,
     stack: ['MongoDB', 'Express JS', 'React JS', 'Node JS'],
-    image: ['/portfolio/semina/1.webp'],
+    image: ['/portfolio/semina/1.webp', '/portfolio/semina/2.webp'],
     sourceCode: 'https://github.com/HariisV/Ticketing-React',
     // livePreview: 'https://tickez.dokumensaya.com/',
     date: '2022 - DES',
@@ -52,7 +52,7 @@ const projects = [
     </ul>
     `,
     stack: ['React', 'MongoDB', 'Express', 'NodeJS', 'Story Book'],
-    image: ['/portfolio/storegg/1.png'],
+    image: ['/portfolio/storegg/1.png', '/portfolio/storegg/2.png'],
     // sourceCode: 'https://github.com/HariisV/Ticketing-React',
     // livePreview: 'https://tickez.dokumensaya.com/',
     date: '2022 - DES',
@@ -135,8 +135,7 @@ const projects = [
       <li>and changing profile and password user.</li>
     </ul></div>`,
     stack: ['Next', 'Redux', 'Bootstrap', 'Redis', 'Express', 'Midtrans'],
-    image: ['/portfolio/xwallet/1.png'],
-
+    image: ['/portfolio/xwallet/1.png', '/portfolio/xwallet/2.png'],
     date: '2021 - SEP',
     sourceCode: 'https://github.com/HariisV/XWallet',
     livePreview: 'https://x-wallet.vercel.app/',
