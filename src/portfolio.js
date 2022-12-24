@@ -34,29 +34,29 @@ const projects = [
     `,
     stack: ['MongoDB', 'Express JS', 'React JS', 'Node JS'],
     image: ['/portfolio/semina/1.webp', '/portfolio/semina/2.webp'],
-    sourceCode: 'https://github.com/HariisV/Ticketing-React',
+    sourceCode: 'https://github.com/HariisV/semina-backend',
     // livePreview: 'https://tickez.dokumensaya.com/',
     date: '2022 - DES',
   },
-  {
-    name: 'StoreGG',
-    description:
-      'Storegg is web application for gamers to add credit to game balance. using NextJs and Express Js as the development platform.',
-    descriptionLong: `
-    <p>Storegg is an application that makes it easy for gamers to add credit to their game balance through top-up. This application is developed using NextJs and Express Js as the development platform. With Storegg, gamers can easily add credit to their game balance with just a few clicks, without the hassle of finding complicated top-up methods or buying game vouchers at stores. In addition, Storegg also provides various safe and easy payment methods for gamers, so they can comfortably add credit to their game balance anytime and anywhere.    </p>
-    <ul>
-      <li>Register/Login</li>
-      <li>Admin Page.</li>
-      <li>Topup Page.</li>
-      <li>Using Midtrans For Payment Gateway.</li>
-    </ul>
-    `,
-    stack: ['React', 'MongoDB', 'Express', 'NodeJS', 'Story Book'],
-    image: ['/portfolio/storegg/1.png', '/portfolio/storegg/2.png'],
-    // sourceCode: 'https://github.com/HariisV/Ticketing-React',
-    // livePreview: 'https://tickez.dokumensaya.com/',
-    date: '2022 - DES',
-  },
+  // {
+  //   name: 'StoreGG',
+  //   description:
+  //     'Storegg is web application for gamers to add credit to game balance. using NextJs and Express Js as the development platform.',
+  //   descriptionLong: `
+  //   <p>Storegg is an application that makes it easy for gamers to add credit to their game balance through top-up. This application is developed using NextJs and Express Js as the development platform. With Storegg, gamers can easily add credit to their game balance with just a few clicks, without the hassle of finding complicated top-up methods or buying game vouchers at stores. In addition, Storegg also provides various safe and easy payment methods for gamers, so they can comfortably add credit to their game balance anytime and anywhere.    </p>
+  //   <ul>
+  //     <li>Register/Login</li>
+  //     <li>Admin Page.</li>
+  //     <li>Topup Page.</li>
+  //     <li>Using Midtrans For Payment Gateway.</li>
+  //   </ul>
+  //   `,
+  //   stack: ['React', 'MongoDB', 'Express', 'NodeJS', 'Story Book'],
+  //   image: ['/portfolio/storegg/1.png', '/portfolio/storegg/2.png'],
+  //   // sourceCode: 'https://github.com/HariisV/Ticketing-React',
+  //   // livePreview: 'https://tickez.dokumensaya.com/',
+  //   date: '2022 - DES',
+  // },
   {
     name: 'Luxspace PWA',
     description:
