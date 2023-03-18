@@ -113,8 +113,20 @@
 }
 .modal_close{
   margin: 20px 0 60px 0 !important;
-  /* background-color: red; */
-  /* padding: 10px 20px; */
+    z-index: 999;
+    padding:  10px 30px !important;
+    color:white;
+    border: 1px solid #EF4444 !important;
+    background-color: #EF4444 !important;
+    /* border-radius: 100px; */
+    /* -webkit-border-radius: 100px; */
+    /* -moz-border-radius: 100px; */
+    /* -ms-border-radius: 100px; */
+    /* -o-border-radius: 100px; */
+}
+.modal_close:hover{
+  cursor: pointer;
+  background-color: #f33b3b !important;
 }
 .modal_desc_link{
   color: white;

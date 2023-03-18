@@ -61,13 +61,14 @@ export default function ModalProject({
           describedby: 'full_description',
         }}
       >
-        <div className={`${themeName} scrollbar`} id='style-3'>
+        <div className={`${themeName} scrollbar `} id='style-3'>
           {isLoading && (
             <div
               className='modal_title modal_skeleton'
               style={{ height: '50vh' }}
             />
           )}
+
           <Carousel
             showThumbs
             infiniteLoop
@@ -140,7 +141,7 @@ export default function ModalProject({
               <button
                 type='button'
                 onClick={() => closeModal()}
-                className='modal_close skills__list-item btn btn--plain btn-text-white'
+                className='modal_close button-close skills__list-item btn btn--plain btn-text-white'
               >
                 Close
               </button>

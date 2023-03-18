@@ -168,7 +168,7 @@ const projects = [
     description:
       'Marketplace For Selling Item Online (Game, Mobile Legends, Account, etc). Saving balance after top up to easily buy items',
     descriptionLong: '',
-    stack: ['Laravel Livewire', 'MySQL', 'Bootstrap'],
+    stack: ['Livewire', 'MySQL', 'Bootstrap'],
     image: ['/portfolio/solusi-marketing/1.png'],
     date: '2022 - MEI',
     livePreview: 'http://solusi-digital.sehatnow.com/',
