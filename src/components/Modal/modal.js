@@ -2,8 +2,6 @@ import React, { useState, useContext } from 'react'
 import Modal from 'react-modal'
 import './modal.css'
 import { Carousel } from 'react-responsive-carousel'
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import { GitHub, Launch } from '@material-ui/icons/'
 import { ThemeContext } from '../../contexts/theme'
 
 export default function ModalProject({
@@ -17,7 +15,6 @@ export default function ModalProject({
 
   const customStyles = {
     content: {
-      overflow: 'hidden',
       top: '50%',
       left: '50%',
       right: '50%',
@@ -55,6 +52,7 @@ export default function ModalProject({
         onRequestClose={() => closeModal}
         style={customStyles}
         overlayClassName='Overlay'
+        id='style-3'
         contentLabel='Example Modal'
         aria={{
           labelledby: 'heading',
@@ -90,7 +88,7 @@ export default function ModalProject({
           </Carousel>
           <div className='container_modal'>
             <h3 className='modal_title'>{project.name}</h3>
-            <div className='modal_desc'>
+            {/* <div className='modal_desc'>
               <div className='modal_desc_item'>
                 <p className='modal_desc_item-title'>Base Technologies</p>
                 <p className='modal_desc_item-text'>{project.stack[0]}</p>
@@ -118,7 +116,7 @@ export default function ModalProject({
                   )}
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div
               dangerouslySetInnerHTML={tagToHtml()}

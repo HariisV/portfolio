@@ -6,6 +6,12 @@
   transition: transform 0.2s linear;
   position: relative;
   width: 100%;
+  border: 1px solid #009AC5;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .project:hover {
@@ -35,7 +41,7 @@
   backdrop-filter: blur(4px) ;
   width: 90%;
   right: 5%;
-  top: 30px;
+  top: 0%;
   height: 90%;
 }
 .button__detail{
@@ -66,4 +72,28 @@
   padding-right: 2em;
   padding-left: 2em;
   position: relative;
+}
+.section__container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.section__container h2{
+  width: fit-content;
+  text-align: center;
+  position: relative;
+}
+.section__container hr{
+  width: 110%;
+  position: absolute;
+  bottom: -15%;
+  left:-5%;
+  /* margin-left:50px; */
+  margin-top: 10px;
+  border-top: 5px solid #00C7FF;
+}
+
+.text-primary{
+  color: #00C7FF;
 }

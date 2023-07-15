@@ -18,11 +18,15 @@ html {
 h1,
 h2,
 h3,
-h4 {
+h4,
+.titleH2 {
   line-height: 1.2;
   color: var(--clr-fg-alt);
 }
-
+.titleH2::placeholder{
+  font-weight: bold;
+  color: white;
+}
 h1 {
   font-size: 4rem;
 }

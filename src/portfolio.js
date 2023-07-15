@@ -5,9 +5,15 @@ const header = {
 
 const about = {
   name: 'Haris Wahyudi',
-  role: 'Fullstack Website Developer',
+  role: [
+    '<span style="color:#00C7FF">Software Engineer</span>.',
+    '<span style="color:#00C7FF">Front End</span> Developer.',
+    '<span style="color:#00C7FF">Backend </span> Developer.',
+    '<span style="color:#00C7FF">Android </span> Developer.',
+    '<span style="color:#00C7FF">DevOps Engineer </span>.',
+  ],
   description:
-    'Personal who likes to work hard, flexible and generous towards work. Now focus on learning the latest technologies like ReactJs, NodeJs, ExpressJs, and React Native.Having a Hobby of Solving Problems, makes me not easily give up on problems. And also has an enthusiastic nature with all things programming.',
+    'Experienced professional with 3 years of hands-on experience, a strong work ethic, adaptability, and dedication to delivering high-quality results. I have a passion for problem-solving, which fuels my persistence in overcoming challenges. With an inherent enthusiasm for all aspects of programming, I am constantly driven to excel in my field.',
   descriptionLong: '',
   resume: '/cv/CV%20-%20Haris%20Wahyudi.pdf',
   social: {
@@ -35,28 +41,9 @@ const projects = [
     stack: ['MongoDB', 'Express JS', 'React JS', 'Node JS'],
     image: ['/portfolio/semina/1.webp', '/portfolio/semina/2.webp'],
     sourceCode: 'https://github.com/HariisV/semina-backend',
-    // livePreview: 'https://tickez.dokumensaya.com/',
     date: '2022 - DES',
   },
-  // {
-  //   name: 'StoreGG',
-  //   description:
-  //     'Storegg is web application for gamers to add credit to game balance. using NextJs and Express Js as the development platform.',
-  //   descriptionLong: `
-  //   <p>Storegg is an application that makes it easy for gamers to add credit to their game balance through top-up. This application is developed using NextJs and Express Js as the development platform. With Storegg, gamers can easily add credit to their game balance with just a few clicks, without the hassle of finding complicated top-up methods or buying game vouchers at stores. In addition, Storegg also provides various safe and easy payment methods for gamers, so they can comfortably add credit to their game balance anytime and anywhere.    </p>
-  //   <ul>
-  //     <li>Register/Login</li>
-  //     <li>Admin Page.</li>
-  //     <li>Topup Page.</li>
-  //     <li>Using Midtrans For Payment Gateway.</li>
-  //   </ul>
-  //   `,
-  //   stack: ['React', 'MongoDB', 'Express', 'NodeJS', 'Story Book'],
-  //   image: ['/portfolio/storegg/1.png', '/portfolio/storegg/2.png'],
-  //   // sourceCode: 'https://github.com/HariisV/Ticketing-React',
-  //   // livePreview: 'https://tickez.dokumensaya.com/',
-  //   date: '2022 - DES',
-  // },
+
   {
     name: 'Luxspace PWA',
     description:
@@ -183,16 +170,7 @@ const projects = [
     livePreview: 'https://dmadropship.com/',
     image: ['/portfolio/dma/1.png'],
   },
-  {
-    name: 'Eka Danta LC',
-    description:
-      'Tryout online website, used for students who study there, every month more than 150 visitors access it at the same time',
-    descriptionLong: '',
-    stack: ['Laravel', 'Bootstrap', 'Jquery', 'Ajax'],
-    date: '2020 - AUG',
-    livePreview: 'https://ekadantalc.com/',
-    image: ['/portfolio/ekadanta/1.png'],
-  },
+
   {
     name: 'PPDB SMKN 5',
     description:
@@ -214,27 +192,205 @@ const projects = [
     date: '2020 - MEI',
   },
 ]
-
-const skills = [
-  'HTML / CSS',
-  'JavaScript / TypeScript',
-  'React',
-  'ReactNative',
-  'NextJS',
-  'Node',
-  'Express',
-  'MongoDB',
-  'Jest Js',
-  'TailwindCSS',
-  'Bootstrap',
-  'PHP',
-  'Laravel',
-  'MySql',
+const otherProjects = [
+  {
+    name: 'Brainfit Online',
+    description:
+      'Developed a complex landing page with an integrated admin panel using Laravel as the backend framework and Alpine.js as the frontend framework. Leveraged the power of Laravel, TailwindCSS, and Alpine.js to create a seamless user experience. MySQL was utilized as the database to ensure efficient data management and retrieval.',
+    stack: ['Laravel', 'TailwindCSS', 'AlpineJS'],
+    livePreview: 'http://brainfitonline.co.id/',
+    image: ['/image/other-2.png'],
+  },
+  {
+    name: 'Sinaning.id',
+    description:
+      'Implemented real-time chat features, resolved bugs, and ensured responsive design for a mobile-first approach. Conducted manual quality assurance (QA) testing and built Android apps using React Native. Utilized Laravel, Bootstrap, jQuery, and Firebase to enhance project functionality and user experience.',
+    stack: ['Laravel', 'React Native', 'Bootstrap', 'Jquery', 'Firebase'],
+    livePreview: 'http://sinaning.id/',
+    image: ['/image/other-3.png'],
+  },
+  {
+    name: 'Eka Danta LC',
+    description:
+      'Utilized advanced techniques in jQuery and Ajax to implement complex features within a Learning Management System (LMS). Leveraged Laravel and MySQL to optimize code performance, successfully handling concurrent usage by up to 200 users while maintaining cost-effective architecture.',
+    stack: ['Laravel', 'Bootstrap', 'Jquery', 'Ajax'],
+    livePreview: 'https://ekadantalc.com/',
+    image: ['/portfolio/ekadanta/1.png'],
+  },
+  {
+    name: 'Planning Info UNSYIAH',
+    description:
+      'Continued program development by updating features, resolving bugs, and refactoring code. Implemented CRUD functionality in selected modules and enhanced CSS for improved page aesthetics.',
+    stack: ['HTML', 'CSS', 'JQuery'],
+    livePreview: 'http://perencanaan.usk.ac.id/',
+    image: ['/image/other-1.png'],
+  },
 ]
 
+const skills = [
+  {
+    name: 'Google',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg',
+  },
+  {
+    name: 'HTML',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+  },
+  {
+    name: 'CSS',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+  },
+
+  {
+    name: 'JavaScript',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+  },
+  {
+    name: 'TypeScript',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+  },
+  {
+    name: 'PHP',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
+  },
+  {
+    name: 'NodeJS',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+  },
+  {
+    name: 'ExpressJS',
+    image: '/icon/express.png',
+  },
+  {
+    name: 'React',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+  },
+  {
+    name: 'NextJS',
+    image: 'https://www.datocms-assets.com/75941/1657707878-nextjs_logo.png',
+  },
+  {
+    name: 'React Native',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+  },
+  {
+    name: 'Jquery',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg',
+  },
+  {
+    name: 'JestJS',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
+  },
+  {
+    name: 'Figma',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg',
+  },
+  {
+    name: 'Bootstrap',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg',
+  },
+
+  {
+    name: 'TailwindCSS',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+  },
+  {
+    name: 'SCSS',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg',
+  },
+  {
+    name: 'Laravel',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg',
+  },
+  {
+    name: 'AWS',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg',
+  },
+  {
+    name: 'Digital Ocean',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg',
+  },
+  {
+    name: 'Github',
+    image:
+      'https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png',
+  },
+  {
+    name: 'Docker',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+  },
+  {
+    name: 'MongoDB',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+  },
+  {
+    name: 'MySQL',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+  },
+  {
+    name: 'Redis',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg',
+  },
+]
+
+const reviews = [
+  {
+    name: 'Rino Satya Putra',
+    from: 'via Linkedin',
+    content:
+      'Haris Wahyudi he has a high determination to be able to contribute to the team well and has some abilities, good luck bro!',
+  },
+  {
+    name: 'gomi83',
+    from: 'via Projects.co.id',
+    content: 'Good job, wait for the next project from me.',
+  },
+  {
+    name: 'blackpenguin',
+    from: 'via projects.co.id',
+    content: 'can quickly adapt. recommended workers. thanks',
+  },
+  {
+    name: 'Ricksalva88',
+    from: 'via Projects.co.id',
+    content: 'Finish well and on time.',
+  },
+  {
+    name: 'joe7878',
+    from: 'via Projects.co.id',
+    content: 'Workers are fast, neat, and satisfying haha. thank you',
+  },
+  {
+    name: 'Al Fajri Putra Pratama',
+    from: 'via Linkedin',
+    content:
+      'Haris has a natural talent to be a programmer. I really appreciate everything he does, good luck!',
+  },
+]
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'hariswh9@mail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact, reviews, otherProjects }

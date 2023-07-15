@@ -1,11 +1,26 @@
+import { useRef, useEffect } from 'react'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import Typed from 'typed.js'
 import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
   const { name, role, description, resume, social } = about
+  const el = useRef(null)
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: role,
+      typeSpeed: 80,
+      backSpeed: 50,
+      backDelay: 100,
+      loop: true,
+    })
 
+    return () => {
+      typed.destroy()
+    }
+  }, [])
   return (
     <div className='about center'>
       {name && (
@@ -14,7 +29,11 @@ const About = () => {
         </h1>
       )}
 
-      {role && <h2 className='about__role'>A {role}.</h2>}
+      {role && (
+        <h2 className='about__role'>
+          A <span ref={el} />
+        </h2>
+      )}
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>

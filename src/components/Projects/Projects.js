@@ -8,7 +8,14 @@ const Projects = () => {
 
   return (
     <section id='projects' className='section projects'>
-      <h2 className='section__title'>Projects</h2>
+      <div className='section__container'>
+        <h2 className='section__title'>
+          Every project is a <span className='text-primary'>challenge</span>,
+          <br /> a chance to <span className='text-primary'>learn</span>{' '}
+          something new.
+          <hr />
+        </h2>
+      </div>
 
       <div className='projects__grid'>
         {projects.map((project) => (

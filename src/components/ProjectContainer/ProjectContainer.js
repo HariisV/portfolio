@@ -17,6 +17,8 @@ const ProjectContainer = ({ project }) => {
             width: '100%',
             height: 230,
             marginBottom: 20,
+            padding: 15,
+            borderRadius: 20,
             // objectFit: project.isMobile ? 'contain' : 'unset',
           }}
         />
