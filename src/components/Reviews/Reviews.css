@@ -6,11 +6,16 @@
   justify-content: center;
   
 }
-
+@media screen and (min-width: 1200px) {
+  .review_container .hr__primary{
+    width: 110%;
+    height: 1px;
+    left:-5%;
+  }
+  
+}
 .review_container .hr__primary{
-  width: 110%;
   height: 1px;
-  left:-5%;
 }
 .review_content_container{
   display: flex;
@@ -50,7 +55,13 @@
   color: white;
   font-size: 16px;
   font-style: italic;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 1200px) {
+  .review_content_item .content{
+    padding-bottom: 20px;
+  }
+  
 }
 .review_content_item .from{
   font-size: 12px;

@@ -15,7 +15,7 @@ const about = {
   description:
     'Experienced professional with 3 years of hands-on experience, a strong work ethic, adaptability, and dedication to delivering high-quality results. I have a passion for problem-solving, which fuels my persistence in overcoming challenges. With an inherent enthusiasm for all aspects of programming, I am constantly driven to excel in my field.',
   descriptionLong: '',
-  resume: '/cv/CV%20-%20Haris%20Wahyudi.pdf',
+  resume: '/cv/CV - Haris Wahyudi - FS.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/harisw/',
     github: 'https://github.com/hariisV',

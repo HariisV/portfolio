@@ -6,16 +6,7 @@ import LaunchIcon from '@material-ui/icons/Launch'
 const OtherProjectsContainer = ({ project }) => (
   <>
     <div className=' other_project'>
-      <img
-        src={project.image[0]}
-        alt=''
-        style={{
-          width: '30%',
-          height: 230,
-          padding: 15,
-          borderRadius: 20,
-        }}
-      />
+      <img src={project.image[0]} alt='' className='other_project__image' />
       <div className='project-detail project-detail_other'>
         <div className='project__container-title_other'>
           <h3 className='project__title_other'>{project.name}</h3>

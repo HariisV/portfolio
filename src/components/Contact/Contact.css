@@ -1,13 +1,17 @@
 .contact {
   flex-direction: column;
 }
-.contact_container{
-  display: flex;
-  gap: 10px;
+@media screen and (min-width: 1200px) {
+  .contact_container{
+    display: flex;
+    gap: 10px;
+  }
+  
 }
 .contact_item{
   display: flex !important;
   gap: 5px;
+  margin-bottom: 10px;
 }
 .contact_item p{
   align-self: center;

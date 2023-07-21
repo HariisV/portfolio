@@ -1,9 +1,6 @@
 
 .projects__grid_other{
   grid-template-columns: repeat(1, minmax(18em, 1fr));
-
-}
-.project__title_other{
 }
 .project__container-title_other{
   margin-top: 20px;
@@ -12,11 +9,5 @@
   gap: 5px;
 }
 .project__container-title_other a{
-  align-self: center  ;
-
-}
-.project__tech_other{
-  font-weight: 600;
-  position: absolute;
-  bottom: 20px;
+  align-self: center;
 }
