@@ -19,9 +19,10 @@
 
 .contact_item:hover svg{
   color: white;
-  background-color: transparent;
 }
 .contact_item:hover p{
   color: white;
+}
+.contact_item{
   background-color: transparent;
 }
