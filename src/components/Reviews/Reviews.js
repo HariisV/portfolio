@@ -2,7 +2,7 @@ import './Reviews.css'
 import Carousel from 'react-elastic-carousel'
 import { reviews } from '../../portfolio'
 
-const ReviewItem = ({ data, index }) => {
+const ReviewItem = ({ data }) => {
   const { name, from, content } = data || {}
   return (
     <div className='review_content_item'>
