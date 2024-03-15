@@ -15,7 +15,7 @@ const about = {
   description:
     'Experienced professional with 3 years of hands-on experience, a strong work ethic, adaptability, and dedication to delivering high-quality results. I have a passion for problem-solving, which fuels my persistence in overcoming challenges. With an inherent enthusiasm for all aspects of programming, I am constantly driven to excel in my field.',
   descriptionLong: '',
-  resume: '/cv/CV - Haris Wahyudi - FS.pdf',
+  resume: '/cv/CV - Haris Wahyudi.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/harisw/',
     github: 'https://github.com/hariisV',
@@ -23,6 +23,22 @@ const about = {
 }
 
 const projects = [
+  {
+    name: 'TryoutASN Mobile',
+    description:
+      'Develop a mobile application for TryoutASN. This application is built using React Native, build api using Laravel',
+    stack: ['Laravel', 'TailwindCSS', 'AlpineJS'],
+    livePreview: 'http://brainfitonline.co.id/',
+    image: ['/image/tryoutasn-mobile.webp'],
+  },
+  {
+    name: 'Brainfit Online',
+    description:
+      'Designed and developed a sophisticated landing page with an integrated admin panel using Laravel and Alpine.js for animation',
+    stack: ['Laravel', 'TailwindCSS', 'AlpineJS'],
+    livePreview: 'http://brainfitonline.co.id/',
+    image: ['/image/brainfit.webp'],
+  },
   {
     name: 'Semina',
     description:
@@ -38,7 +54,7 @@ const projects = [
       <li>E-ticket: After successful ticket booking and payment, the user will receive an e-ticket via email or the application that can be used to attend the seminar.</li>
     </ul>
     `,
-    stack: ['MongoDB', 'Express JS', 'React JS', 'Node JS'],
+    stack: ['MongoDB', 'Express JS', 'React JS'],
     image: ['/portfolio/semina/1.webp', '/portfolio/semina/2.webp'],
     sourceCode: 'https://github.com/HariisV/semina-backend',
     date: '2022 - DES',
@@ -77,7 +93,7 @@ const projects = [
       <li>The user can also change their profile and password.</li>
     </ul>
     `,
-    stack: ['React', 'Redux', 'Bootstrap', 'Express', 'Redis', 'Axios'],
+    stack: ['React', 'Bootstrap', 'Express', 'Redis'],
     image: ['/portfolio/tickez/1.png'],
     sourceCode: 'https://github.com/HariisV/Ticketing-React',
     livePreview: 'https://tickez.dokumensaya.com/',
@@ -121,7 +137,7 @@ const projects = [
       <li>viewing income and expenditure in the xWallet app dashboard</li>
       <li>and changing profile and password user.</li>
     </ul></div>`,
-    stack: ['Next', 'Redux', 'Bootstrap', 'Redis', 'Express', 'Midtrans'],
+    stack: ['Next', 'Bootstrap', 'Redis', 'Express'],
     image: ['/portfolio/xwallet/1.png', '/portfolio/xwallet/2.png'],
     date: '2021 - SEP',
     sourceCode: 'https://github.com/HariisV/XWallet',
@@ -130,25 +146,20 @@ const projects = [
   {
     name: 'Hire App',
     description:
-      'HireApp is an application for job seekers or looking for workers. Or even you can contact workers for a project',
+      'Hire App is an application for job seekers or looking for workers. Or even you can contact workers for a project',
     descriptionLong: '',
-    stack: ['React', 'Redux', 'Redis', 'Bootstrap', 'Express'],
-    sourceCode: 'https://github.com',
+    stack: ['React', 'Redis', 'Bootstrap', 'Express'],
     image: ['/portfolio/hire/1.png'],
-
     date: '2021 - DES',
-    livePreview: 'https://github.com',
   },
   {
     name: 'Coffe Shop',
     description:
       'Website for buying coffee online. using midtrans as a payment gateway. Admin can manage purchases and view monthly data.',
     descriptionLong: '',
-    stack: ['React', 'Redux', 'Redis', 'Bootstrap', 'Express', 'Midtrans'],
-    sourceCode: 'https://github.com',
-    image: ['/portfolio/coffe/1.png'],
+    stack: ['React', 'Redis', 'Bootstrap', 'Express'],
+    image: ['/portfolio/coffe/1.webp'],
     date: '2021 - OKT',
-    livePreview: 'https://github.com',
   },
   {
     name: 'Solusi Marketing',
@@ -156,9 +167,8 @@ const projects = [
       'Marketplace For Selling Item Online (Game, Mobile Legends, Account, etc). Saving balance after top up to easily buy items',
     descriptionLong: '',
     stack: ['Livewire', 'MySQL', 'Bootstrap'],
-    image: ['/portfolio/solusi-marketing/1.png'],
+    image: ['/portfolio/solusi-marketing/1.webp'],
     date: '2022 - MEI',
-    livePreview: 'http://solusi-digital.sehatnow.com/',
   },
   {
     name: 'DMA Dropship',
@@ -167,17 +177,22 @@ const projects = [
     descriptionLong: '',
     stack: ['Laravel', 'Bootstrap', 'Jquery', 'MySql'],
     date: '2021 - MEI',
-    livePreview: 'https://dmadropship.com/',
     image: ['/portfolio/dma/1.png'],
   },
-
+  {
+    name: 'Eka Danta LC',
+    description:
+      'Develop web application with complex features in a Learning Management System (LMS) using advanced jQuery and Ajax techniques.',
+    stack: ['Laravel', 'Bootstrap', 'Jquery', 'Ajax'],
+    livePreview: 'https://ekadantalc.com/',
+    image: ['/portfolio/ekadanta/1.png'],
+  },
   {
     name: 'PPDB SMKN 5',
     description:
       'New Student Admission Website. has several features such as registering new students, verifying data, to taking online tests.',
     descriptionLong: '',
     stack: ['Laravel', 'Bootstrap', 'MySql'],
-    sourceCode: 'https://github.com/HariisV',
     date: '2021 - FEB',
     image: ['/portfolio/ppdb/1.png'],
   },
@@ -188,43 +203,43 @@ const projects = [
     descriptionLong: '',
     stack: ['Laravel', 'Bootstrap', 'MySql'],
     sourceCode: 'https://github.com/HariisV/Meduza-Shop',
-    image: ['/portfolio/meduza/1.png'],
+    image: ['/portfolio/meduza/1.webp'],
     date: '2020 - MEI',
   },
 ]
 const otherProjects = [
-  {
-    name: 'Brainfit Online',
-    description:
-      'Developed a complex landing page with an integrated admin panel using Laravel as the backend framework and Alpine.js as the frontend framework. Leveraged the power of Laravel, TailwindCSS, and Alpine.js to create a seamless user experience. MySQL was utilized as the database to ensure efficient data management and retrieval.',
-    stack: ['Laravel', 'TailwindCSS', 'AlpineJS'],
-    livePreview: 'http://brainfitonline.co.id/',
-    image: ['/image/other-2.png'],
-  },
-  {
-    name: 'Sinaning.id',
-    description:
-      'Implemented real-time chat features, resolved bugs, and ensured responsive design for a mobile-first approach. Conducted manual quality assurance (QA) testing and built Android apps using React Native. Utilized Laravel, Bootstrap, jQuery, and Firebase to enhance project functionality and user experience.',
-    stack: ['Laravel', 'React Native', 'Bootstrap', 'Jquery', 'Firebase'],
-    livePreview: 'http://sinaning.id/',
-    image: ['/image/other-3.png'],
-  },
-  {
-    name: 'Eka Danta LC',
-    description:
-      'Utilized advanced techniques in jQuery and Ajax to implement complex features within a Learning Management System (LMS). Leveraged Laravel and MySQL to optimize code performance, successfully handling concurrent usage by up to 200 users while maintaining cost-effective architecture.',
-    stack: ['Laravel', 'Bootstrap', 'Jquery', 'Ajax'],
-    livePreview: 'https://ekadantalc.com/',
-    image: ['/portfolio/ekadanta/1.png'],
-  },
-  {
-    name: 'Planning Info UNSYIAH',
-    description:
-      'Continued program development by updating features, resolving bugs, and refactoring code. Implemented CRUD functionality in selected modules and enhanced CSS for improved page aesthetics.',
-    stack: ['HTML', 'CSS', 'JQuery'],
-    livePreview: 'http://perencanaan.usk.ac.id/',
-    image: ['/image/other-1.png'],
-  },
+  // {
+  //   name: 'Brainfit Online',
+  //   description:
+  //     'Developed a complex landing page with an integrated admin panel using Laravel as the backend framework and Alpine.js as the frontend framework. Leveraged the power of Laravel, TailwindCSS, and Alpine.js to create a seamless user experience. MySQL was utilized as the database to ensure efficient data management and retrieval.',
+  //   stack: ['Laravel', 'TailwindCSS', 'AlpineJS'],
+  //   livePreview: 'http://brainfitonline.co.id/',
+  //   image: ['/image/other-2.png'],
+  // },
+  // {
+  //   name: 'Sinaning.id',
+  //   description:
+  //     'Implemented real-time chat features, resolved bugs, and ensured responsive design for a mobile-first approach. Conducted manual quality assurance (QA) testing and built Android apps using React Native. Utilized Laravel, Bootstrap, jQuery, and Firebase to enhance project functionality and user experience.',
+  //   stack: ['Laravel', 'React Native', 'Bootstrap', 'Jquery', 'Firebase'],
+  //   livePreview: 'http://sinaning.id/',
+  //   image: ['/image/other-3.png'],
+  // },
+  // {
+  //   name: 'Eka Danta LC',
+  //   description:
+  //     'Utilized advanced techniques in jQuery and Ajax to implement complex features within a Learning Management System (LMS). Leveraged Laravel and MySQL to optimize code performance, successfully handling concurrent usage by up to 200 users while maintaining cost-effective architecture.',
+  //   stack: ['Laravel', 'Bootstrap', 'Jquery', 'Ajax'],
+  //   livePreview: 'https://ekadantalc.com/',
+  //   image: ['/portfolio/ekadanta/1.png'],
+  // },
+  // {
+  //   name: 'Planning Info UNSYIAH',
+  //   description:
+  //     'Continued program development by updating features, resolving bugs, and refactoring code. Implemented CRUD functionality in selected modules and enhanced CSS for improved page aesthetics.',
+  //   stack: ['HTML', 'CSS', 'JQuery'],
+  //   livePreview: 'http://perencanaan.usk.ac.id/',
+  //   image: ['/image/other-1.png'],
+  // },
 ]
 
 const skills = [
@@ -300,13 +315,13 @@ const skills = [
   {
     name: 'Bootstrap',
     image:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg',
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
   },
 
   {
     name: 'TailwindCSS',
     image:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
   },
   {
     name: 'SCSS',
@@ -316,12 +331,12 @@ const skills = [
   {
     name: 'Laravel',
     image:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg',
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg',
   },
   {
     name: 'AWS',
     image:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg',
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg',
   },
   {
     name: 'Digital Ocean',
@@ -346,7 +361,7 @@ const skills = [
   {
     name: 'MySQL',
     image:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
   },
   {
     name: 'Redis',

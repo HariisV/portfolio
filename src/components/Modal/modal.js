@@ -33,9 +33,9 @@ export default function ModalProject({
   const tagToHtml = () => {
     const temp = {
       __html:
-        project.descriptionLong.length > 0
-          ? project.descriptionLong
-          : project.description,
+        project?.descriptionLong?.length > 0
+          ? project?.descriptionLong
+          : project?.description,
     }
     return temp
   }

@@ -16,13 +16,35 @@ const ProjectContainer = ({ project }) => {
           style={{
             width: '100%',
             height: 230,
-            marginBottom: 20,
+            marginBottom: 0,
             padding: 15,
             borderRadius: 20,
-            // objectFit: project.isMobile ? 'contain' : 'unset',
           }}
         />
         <div className='project-detail'>
+          {/* <div
+            style={{
+              display: 'flex',
+              justifyContent: 'end',
+              marginBottom: 10,
+              fontSize: 12,
+            }}
+          >
+            {project?.stack?.map((tech) => (
+              <span
+                style={{
+                  padding: '2px 10px',
+                  margin: '0 5px',
+                  borderRadius: '100px',
+                  backgroundColor: '#f2f2f2',
+                  color: '#333',
+                  fontSize: 10,
+                }}
+              >
+                {tech}
+              </span>
+            ))}
+          </div> */}
           <ModalProject
             modalIsOpen={modalIsOpen}
             setIsOpen={setIsOpen}
@@ -31,17 +53,12 @@ const ProjectContainer = ({ project }) => {
             closeModal={() => setIsOpen(false)}
           />
           <p className='project__description'>{project.description}</p>
-          <div className='project__detail'>
-            <div className='project__detail-button'>
-              <button
-                type='button'
-                onClick={() => setIsOpen(true)}
-                className='skills__list-item btn btn--plain button__detail'
-              >
-                detail projects
-              </button>
-            </div>
-          </div>
+
+          <ul className='project__stack'>
+            {project?.stack?.map((tech) => (
+              <li className='project__stack-item'>{tech}</li>
+            ))}
+          </ul>
 
           {project.sourceCode && (
             <a

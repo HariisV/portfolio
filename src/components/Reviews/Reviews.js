@@ -34,7 +34,9 @@ const Reviews = () => (
       <Carousel
         breakPoints={breakPoints}
         itemPadding={[5, 15]}
-        pagination={false}
+        enableSwipe
+        showArrows={false}
+        autoPlaySpeed={5000}
       >
         {reviews.map((review, index) => (
           <ReviewItem key={review.name} index={index} data={review} />

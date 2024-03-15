@@ -3,7 +3,7 @@ import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
 import Projects from './components/Projects/Projects'
-import OtherProjects from './components/OtherProjects/OtherProjects'
+// import OtherProjects from './components/OtherProjects/OtherProjects'
 import Skills from './components/Skills/Skills'
 import Reviews from './components/Reviews/Reviews'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
@@ -22,7 +22,7 @@ const App = () => {
       <main>
         <About />
         <Projects />
-        <OtherProjects />
+        {/* <OtherProjects /> */}
         <Skills />
         <Reviews />
         <Contact />
