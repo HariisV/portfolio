@@ -28,8 +28,8 @@ const projects = [
     description:
       'Develop a mobile application for TryoutASN. This application is built using React Native, build api using Laravel',
     stack: ['Laravel', 'TailwindCSS', 'AlpineJS'],
-    livePreview: 'http://brainfitonline.co.id/',
-    image: ['/image/tryoutasn-mobile.webp'],
+    // livePreview: 'http://brainfitonline.co.id/',
+    // image: ['/image/tryoutasn-mobile.webp'],
   },
   {
     name: 'Brainfit Online',
