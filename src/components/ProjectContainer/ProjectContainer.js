@@ -11,7 +11,7 @@ const ProjectContainer = ({ project }) => {
     <>
       <div className='project'>
         <img
-          src={project.image[0]}
+          src={project.image?.[0]}
           alt=''
           style={{
             width: '100%',

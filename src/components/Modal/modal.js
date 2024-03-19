@@ -42,10 +42,10 @@ export default function ModalProject({
 
   return (
     <div>
-      <button onClick={openModal} type='button'>
+      <button type='button'>
         <h3>{project.name}</h3>
       </button>
-      <Modal
+      {/* <Modal
         isOpen={modalIsOpen}
         cont
         closeTimeoutMS={500}
@@ -74,7 +74,7 @@ export default function ModalProject({
             autoPlay
             emulateTouch
           >
-            {project.image.map((img) => (
+            {project?.image?.map((img) => (
               <div style={{ display: isLoading ? 'none' : 'block' }} key={img}>
                 <img
                   src={img}
@@ -116,7 +116,7 @@ export default function ModalProject({
                   )}
                 </div>
               </div>
-            </div> */}
+            </div> 
 
             <div
               dangerouslySetInnerHTML={tagToHtml()}
@@ -146,7 +146,7 @@ export default function ModalProject({
             </div>
           </div>
         </div>
-      </Modal>
+      </Modal> */}
     </div>
   )
 }
