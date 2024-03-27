@@ -20,7 +20,7 @@ const breakPoints = [
   { width: 1200, itemsToShow: 5 },
 ]
 const Reviews = () => (
-  <section className='section skills ' id='skills'>
+  <section className='section skills ' id='skills' data-aos='fade-right'>
     <div className='review_container'>
       <h2 className='section__title review'>
         What my <span className='text-primary'>clients</span> &{' '}

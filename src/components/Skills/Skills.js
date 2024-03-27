@@ -6,7 +6,11 @@ const Skills = () => {
   if (!skills.length) return null
 
   return (
-    <section className='section skills skill_container' id='skills'>
+    <section
+      className='section skills skill_container'
+      id='skills'
+      data-aos='fade-left'
+    >
       <div className=''>
         <h2 className='section__title'>
           I got the <span className='text-primary'>experience</span>. Here is my

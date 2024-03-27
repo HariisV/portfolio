@@ -28,16 +28,48 @@ const projects = [
     description:
       'Develop a mobile application for TryoutASN. This application is built using React Native, build api using Laravel',
     stack: ['Laravel', 'React Native', 'Native Base'],
-    // livePreview: 'http://brainfitonline.co.id/',
     image: ['/image/tryoutasn-mobile.webp'],
+  },
+  {
+    name: 'Caffeine',
+    description:
+      'A mobile application for purchasing coffee online. I am responsible for backend development using Express JS.',
+    stack: ['Express', 'PostgreSQL', 'Sequelize'],
+    image: ['/image/my-bucket.webp'],
+    livePreview:
+      'https://play.google.com/store/apps/details?id=com.caffeineism',
+  },
+  {
+    name: 'Viracun',
+    description:
+      'A web-based application designed for learning and practice for Candidates for civil servants. built using React and Express',
+    stack: ['React', 'Express', 'Tailwind', 'Prisma'],
+    image: ['/image/viracun.webp'],
+    livePreview: 'https://bimbel.viracun.id/',
+  },
+  {
+    name: 'SickGPT',
+    description:
+      'A web application used to find information about the diseases. Developed using MERN stack with integrated OpenAI',
+    stack: ['React', 'Express', 'MongoDB', 'Open AI'],
+    image: ['/image/sickgpt.webp'],
+    livePreview: 'https://sickgpt.io/',
   },
   {
     name: 'Brainfit Online',
     description:
-      'Designed and developed a sophisticated landing page with an integrated admin panel using Laravel and Alpine.js for animation',
+      'Designed and developed a sophisticated landing page with an integrated admin panel using Laravel and Alpine.js',
     stack: ['Laravel', 'TailwindCSS', 'AlpineJS'],
     livePreview: 'http://brainfitonline.co.id/',
     image: ['/image/brainfit.webp'],
+  },
+  {
+    name: 'My Bucket',
+    description:
+      'Develop a backend of social media application for My Bucket. This application is built using React JS & Express JS',
+    stack: ['React', 'Tailwind', 'Express'],
+    image: ['/image/my-bucket.webp'],
+    livePreview: 'https://my-bucket.co.kr/',
   },
   {
     name: 'Semina',
@@ -138,7 +170,7 @@ const projects = [
       <li>and changing profile and password user.</li>
     </ul></div>`,
     stack: ['Next', 'Bootstrap', 'Redis', 'Express'],
-    image: ['/portfolio/xwallet/1.png', '/portfolio/xwallet/2.png'],
+    image: ['/portfolio/xwallet/1.png', '/portfolio/xwallet/2.webp'],
     date: '2021 - SEP',
     sourceCode: 'https://github.com/HariisV/XWallet',
     livePreview: 'https://x-wallet.vercel.app/',
@@ -214,7 +246,7 @@ const otherProjects = [
   //     'Developed a complex landing page with an integrated admin panel using Laravel as the backend framework and Alpine.js as the frontend framework. Leveraged the power of Laravel, TailwindCSS, and Alpine.js to create a seamless user experience. MySQL was utilized as the database to ensure efficient data management and retrieval.',
   //   stack: ['Laravel', 'TailwindCSS', 'AlpineJS'],
   //   livePreview: 'http://brainfitonline.co.id/',
-  //   image: ['/image/other-2.png'],
+  //   image: ['/image/other-2.webp'],
   // },
   // {
   //   name: 'Sinaning.id',
@@ -222,7 +254,7 @@ const otherProjects = [
   //     'Implemented real-time chat features, resolved bugs, and ensured responsive design for a mobile-first approach. Conducted manual quality assurance (QA) testing and built Android apps using React Native. Utilized Laravel, Bootstrap, jQuery, and Firebase to enhance project functionality and user experience.',
   //   stack: ['Laravel', 'React Native', 'Bootstrap', 'Jquery', 'Firebase'],
   //   livePreview: 'http://sinaning.id/',
-  //   image: ['/image/other-3.png'],
+  //   image: ['/image/other-3.webp'],
   // },
   // {
   //   name: 'Eka Danta LC',
@@ -230,7 +262,7 @@ const otherProjects = [
   //     'Utilized advanced techniques in jQuery and Ajax to implement complex features within a Learning Management System (LMS). Leveraged Laravel and MySQL to optimize code performance, successfully handling concurrent usage by up to 200 users while maintaining cost-effective architecture.',
   //   stack: ['Laravel', 'Bootstrap', 'Jquery', 'Ajax'],
   //   livePreview: 'https://ekadantalc.com/',
-  //   image: ['/portfolio/ekadanta/1.png'],
+  //   image: ['/portfolio/ekadanta/1.webp'],
   // },
   // {
   //   name: 'Planning Info UNSYIAH',
@@ -238,7 +270,7 @@ const otherProjects = [
   //     'Continued program development by updating features, resolving bugs, and refactoring code. Implemented CRUD functionality in selected modules and enhanced CSS for improved page aesthetics.',
   //   stack: ['HTML', 'CSS', 'JQuery'],
   //   livePreview: 'http://perencanaan.usk.ac.id/',
-  //   image: ['/image/other-1.png'],
+  //   image: ['/image/other-1.webp'],
   // },
 ]
 

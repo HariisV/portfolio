@@ -14,6 +14,10 @@
 html {
   scroll-behavior: smooth;
 }
+.app{
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 h1,
 h2,

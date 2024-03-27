@@ -22,7 +22,7 @@ const About = () => {
     }
   }, [])
   return (
-    <div className='about center'>
+    <div className='about center' data-aos='fade-down'>
       {name && (
         <h1>
           Hi, I am <span className='about__name'>{name}.</span>
