@@ -35,7 +35,7 @@ const projects = [
     description:
       'A mobile application for purchasing coffee online. I am responsible for backend development using Express JS.',
     stack: ['Express', 'PostgreSQL', 'Sequelize'],
-    image: ['/image/my-bucket.webp'],
+    image: ['/image/caffein.webp'],
     livePreview:
       'https://play.google.com/store/apps/details?id=com.caffeineism',
   },
