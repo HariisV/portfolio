@@ -29,6 +29,7 @@ const projects = [
       'Develop a mobile application for TryoutASN. This application is built using React Native, build api using Laravel',
     stack: ['Laravel', 'React Native', 'Native Base'],
     image: ['/image/tryoutasn-mobile.webp'],
+    livePreview: 'https://play.google.com/store/apps/details?id=com.tryoutasn',
   },
   {
     name: 'Caffeine',
